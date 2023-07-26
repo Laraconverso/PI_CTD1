@@ -6,7 +6,7 @@ import { Loader } from '@googlemaps/js-api-loader'
 const BookingForm = () => {
   const { user, changeCity, city } = useContext(UserContext)
   const loader = new Loader({
-    apiKey: 'AIzaSyAiYylXAYovmvUIWkVeQcDdUHonP97gCRE',
+    apiKey: //enter the api key here,
     version: 'weekly',
     libraries: ['places'],
   })
