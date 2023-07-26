@@ -9,7 +9,7 @@ const ProductMap = ({ ciudad, titulo }) => {
   let marker
   // [START maps_programmatic_load_promise]
   const loader = new Loader({
-    apiKey: 'AIzaSyAiYylXAYovmvUIWkVeQcDdUHonP97gCRE',
+    apiKey: '//ENTER THE API KEY HERE',
     version: 'weekly',
     libraries: ['places'],
   })
